@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include disable_right_click *.css
+recursive-include disable_right_click *.csv
+recursive-include disable_right_click *.html
+recursive-include disable_right_click *.ico
+recursive-include disable_right_click *.js
+recursive-include disable_right_click *.json
+recursive-include disable_right_click *.md
+recursive-include disable_right_click *.png
+recursive-include disable_right_click *.py
+recursive-include disable_right_click *.svg
+recursive-include disable_right_click *.txt
+recursive-exclude disable_right_click *.pyc
